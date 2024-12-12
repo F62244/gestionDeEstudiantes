@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
+    background-color: #151536;
     color: #333;
     margin: 0;
     padding: 0;
@@ -21,17 +21,55 @@ h1 {
     color: #4caf50;
     font-size: 2.5em;
     margin-bottom: 20px;
+    border-bottom: 3px solid #4caf50;
+}
+
+.section1{
+    border: 1px solid blue;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.section2{
+    border: 1px solid blue;
+    border-radius: 8px;
 }
 
 h2, h3, h5 {
     color: #333;
-    border-bottom: 2px solid #4caf50;
+    border-bottom: 2px solid #608dec;
     padding-bottom: 5px;
-    margin-bottom: 15px;
+    margin: 12px;
+}
+
+button{
+    margin: 12px;
+    background: rgb(178, 195, 245);
+    border: 1px solid rgb(47, 45, 72);
 }
 
 p {
     margin: 10px 0;
+}
+
+b{
+    color: blue;
+}
+
+.b1{
+    color: rgb(64, 10, 103);
+}
+
+.b2{
+    color:#3e319c ;
+}
+
+.b3{
+    color: green;
+}
+
+.b4{
+    color: red;
 }
 
 ul {
